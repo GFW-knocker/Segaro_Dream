@@ -33,7 +33,14 @@
 - useFragment = bool
 - ADSpath = "/ads.txt"
 
+
+### Settings
+- NumFragment = 87
+- FragmentSleep = 0.001
+
+
 ### info: (optional)
+- pkgVersion = 1.0
 - DateCreation = ""
 - DateExpire = ""
 - CreatorName = ""
