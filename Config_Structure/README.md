@@ -1,8 +1,9 @@
 
 ### Config:
-- type = {websocket , grpc , reality , ...}
-- link = "vmess vless link" with empty UUID and Domain
+- Type = {websocket , grpc , reality , ...}
+- Link = "vmess vless link" with empty UUID and Domain
 - DomainOrIP = ""
+- Port = int
 - SNI = ""
 - useCDN = bool
 - useRandomSubDomain = bool
@@ -13,6 +14,7 @@
 ### DOH:
 - format = {wire,json}
 - DomainOrIP = ""
+- Port = int
 - DohPath = "/dns-query?name="
 - useCDN = bool
 - useRandomSubDomain = bool
@@ -26,6 +28,7 @@
 
 ### ReportServer:
 - DomainOrIP = ""
+- Port = int
 - ReportPath = "/report?data="
 - PackagePath = "/pkg?captcha="  (validate user by captcha then give him 3 config package)
 - useCDN = bool
