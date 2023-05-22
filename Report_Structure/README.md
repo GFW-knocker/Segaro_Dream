@@ -1,0 +1,12 @@
+### Report:
+- isOkConfig = bool
+- isOkDoH = bool
+- isOkCDN = [list of bool] (max 10 ip)
+- DeviceID
+- ClientIP
+- ClientISP
+- InternalHash = "" copy of internal hash field of *.cfgpkg
+- ExternalHash = "" [0:20] of sha1 of *.cfgpkg
+- AppVersion
+- OsVersion
+- DateOfReport
