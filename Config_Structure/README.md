@@ -33,6 +33,23 @@
 - useFragment = bool
 - ADSpath = "/ads.txt"
 
+### info: (optional)
+- DateCreation = ""
+- DateExpire = ""
+- CreatorName = ""
+- CreatorContact = ""
+- Description = "" (100 char max)
+
+### checksum:
+- md5 = ""    (md5 hash of b64 encoding of json with all above info without checksum filed - checksum be inserted later)
+- sha1 = ""
+- InternalHash = ""  concat(md5[0:10] + sha1[0:10]
+
+# --------------------------------------
+- packed in json format
+- encoded in Base64
+- transfered using file *.cfgpkg
+
 
 
 
