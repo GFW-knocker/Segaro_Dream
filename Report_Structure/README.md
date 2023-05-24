@@ -2,6 +2,8 @@
 - isOkConfig = bool
 - isOkDoH = bool
 - isOkCDN = [list of bool] (max 10 ip)
+- illegalADS = 0 (set to 1 if user report inappropriate ADS)
+- userScore = [0:10] if user give a rating for overal speed (0=unrated)
 - DeviceID
 - ClientIP
 - ClientISP
