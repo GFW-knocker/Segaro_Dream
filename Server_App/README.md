@@ -9,5 +9,6 @@
 
 # DoH server
 - nothing.
-- just a python script to setup nginx for DoH (if admin cant do it manually)
+- any cloudflare ip can be used with cloudflare-dns.com DOH
+- or a python script to setup nginx for DoH (if admin cant do it manually)
 
