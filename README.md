@@ -9,7 +9,7 @@
 - هدف : اتصال 20 میلیون نفر به اینترنت آزاد بطور رایگان
 - برای افرادی که بدلایل مالی یا نداشتن دانش فنی از دسترسی به اینترنت محروم هستند
 - برای [توضیحات ساده تر اینجا](https://github.com/GFW-knocker/Segaro_Dream/tree/main/simple) را بخوانید
-- قسمت کلاینت پروژه در حال تکمیل است [MahsaNG](https://github.com/GFW-knocker/MahsaNG)
+- فاز اول کلاینت پروژه منتشر شد  [MahsaNG](https://github.com/GFW-knocker/MahsaNG)
 
 
 # راهکار
